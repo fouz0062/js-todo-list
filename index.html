@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Todo List</h2>
+            <p>Get things done, one item at a time.</p>
+        </div>
+        <div class="list">
+            <ul id="ul">
+                <!-- <li class="list-items">
+
+                    <p>list1</p>
+                    <div>
+                        <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-pen-to-square edit"></i>
+                        <i class="fa-solid fa-trash-can delete"></i>
+
+                    </div>
+                </li>
+                <li class="list-items">
+                    <p>list2</p>
+                    <div>
+                        <i class="fa-solid fa-pen-to-square edit"></i>
+                        <i class="fa-solid fa-trash-can delete"></i>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+        <div class="move">
+            completed items lists below:
+        </div>
+        <div>
+            <ul id="checked">
+            </ul>
+        </div>
+        <div class="add">
+            <h4>Add to the todo list</h4>
+            <input type="text" name="todolist" id="todolist" />
+            <button class="add-item" id="addBtn">ADD ITEM</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
