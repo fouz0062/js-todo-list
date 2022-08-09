@@ -117,6 +117,10 @@ i {
 }
 
 @media screen and (max-width: 576px) {
+    .container{
+        width: 90%;
+        
+    }
             .title>h2{
                 font-size: 1.5rem;
                 padding-bottom: 0.5rem;
@@ -124,9 +128,14 @@ i {
             .title p {
                 font-size: 0.9rem;
             }
-            .list-items {
-                margin: 0;
+            .list-items, .chk {
+                margin: 0.5rem auto;
                 font-size: 1rem;
+                padding: 0.5rem 0;
+                
+            }
+            .chk {
+                margin: 0.5rem 1rem;
             }
             .move{
                 font-size: 1rem;
